@@ -1,0 +1,5 @@
+Opera Unite <-> KDE integration.
+
+Sample use-cases:
+#1: Right-click a file, select "Copy Unite URL". In no time the URL is in your clipboard.
+#2: Make a screenshot. In KSnapshot, select "Open with", "unite-wrapper.sh"

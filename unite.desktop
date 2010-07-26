@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+#ServiceTypes=all/allfiles
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory,all/all,all/allfiles
+X-KDE-Priority=TopLevel
+
+Actions=copyUniteURL;
+
+
+[Desktop Action copyUniteURL]
+Name=Unite URL Copy
+Exec=dbus-send --type=method_call --dest=org.kde.klipper /klipper org.kde.klipper.klipper.setClipboardContents string:"`python ~/src/kde_unite/unite.py %u`"
+
